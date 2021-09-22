@@ -1,4 +1,4 @@
-# Diplomatura_TP: python intermedio
+# TP Biblioteca: Nivel Intermedio
 
 Repositorio para trabajar sobre el TP de la diplomatura en Python
 
