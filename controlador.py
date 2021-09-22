@@ -1,3 +1,9 @@
+"""
+Módulo PRINCIPAL:
+
+    Este módulo se encarga de inicializar el sistema, creando la base de datos y abriendo la consola.
+    El programa inicia desde este punto.
+"""
 from vistas import Login
 from modelo import ConectorDB
 

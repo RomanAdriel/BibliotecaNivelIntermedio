@@ -1,3 +1,23 @@
+"""
+Archivo con diccionarios destinados a mensajería en la aplicación, menú y scripts SQL
+=====================================================================================
+Diccionario 'mensajes':
+=======================
+
+    Contiene clave descriptiva para cada situación y valor con el string a ser aplicado en pantalla.
+
+Diccionario 'opciones_menu':
+============================
+
+    Contiene clave seleccionable y valor que se muestra en pantalla describiendo la opción.
+
+Diccionario 'queries':
+======================
+
+    Contiene clave descriptiva y valor parametrizable por el usuario en tiempo de ejecución
+
+"""
+
 mensajes = {
     "INGRESAR_CORREO": "Ingrese su correo electrónico: ",
     "REINGRESAR_CORREO": "Reingrese su correo electrónico: ",

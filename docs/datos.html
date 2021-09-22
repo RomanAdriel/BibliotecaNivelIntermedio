@@ -1,0 +1,38 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html><head><title>Python: module datos</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+</head><body bgcolor="#f0f0f8">
+
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="heading">
+<tr bgcolor="#7799ee">
+<td valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial">&nbsp;<br><big><big><strong>datos</strong></big></big></font></td
+><td align=right valign=bottom
+><font color="#ffffff" face="helvetica, arial"><a href=".">index</a><br><a href="file:c%3A%5Cusers%5Crdiaz%5Cbibliotecanivelintermedio%5Cdatos.py">c:\users\rdiaz\bibliotecanivelintermedio\datos.py</a></font></td></tr></table>
+    <p><tt>Archivo&nbsp;con&nbsp;diccionarios&nbsp;destinados&nbsp;a&nbsp;mensajería&nbsp;en&nbsp;la&nbsp;aplicación,&nbsp;menú&nbsp;y&nbsp;scripts&nbsp;SQL<br>
+=====================================================================================<br>
+Diccionario&nbsp;'mensajes':<br>
+=======================<br>
+&nbsp;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;Contiene&nbsp;clave&nbsp;descriptiva&nbsp;para&nbsp;cada&nbsp;situación&nbsp;y&nbsp;valor&nbsp;con&nbsp;el&nbsp;string&nbsp;a&nbsp;ser&nbsp;aplicado&nbsp;en&nbsp;pantalla.<br>
+&nbsp;<br>
+Diccionario&nbsp;'opciones_menu':<br>
+============================<br>
+&nbsp;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;Contiene&nbsp;clave&nbsp;seleccionable&nbsp;y&nbsp;valor&nbsp;que&nbsp;se&nbsp;muestra&nbsp;en&nbsp;pantalla&nbsp;describiendo&nbsp;la&nbsp;opción.<br>
+&nbsp;<br>
+Diccionario&nbsp;'queries':<br>
+======================<br>
+&nbsp;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;Contiene&nbsp;clave&nbsp;descriptiva&nbsp;y&nbsp;valor&nbsp;parametrizable&nbsp;por&nbsp;el&nbsp;usuario&nbsp;en&nbsp;tiempo&nbsp;de&nbsp;ejecución</tt></p>
+<p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#55aa55">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial"><big><strong>Data</strong></big></font></td></tr>
+    
+<tr><td bgcolor="#55aa55"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%"><strong>mensajes</strong> = {'BIENVENIDA_MENU': 'Bienvenido/a, ', 'COLUMNA_DESCRIPCION': 'Descripción', 'COLUMNA_OPCION': 'Opción', 'CONTINUAR_OPERACION': 'Desea repetir el tipo de operación? (s/n): ', 'CORREO_INVALIDO': 'No fue posible comprobar su correo electrónico. Vuelva a intentarlo más tarde.', 'DESPEDIDA_MENU': 'Hasta pronto,', 'ERROR_INSERT': 'Año y stock no pueden estar vacíos y deben ser números enteros.', 'ERROR_QUERY': 'Se ha encontrado un error en la ejecución de la query: ', 'EXPORTAR_RESULTADOS': 'Desea exportar los resultados? (s/n): ', 'INGRESAR_COLUMNA': 'Ingrese el nombre de la columna que desea modificar: ', ...}<br>
+<strong>opciones_menu</strong> = {1: 'Ingresar Libro', 2: 'Eliminar Libro', 3: 'Modificar Libro', 4: 'Consultar Libro', 5: 'Cambiar de Cuenta', 6: 'Salir'}<br>
+<strong>queries</strong> = {'BORRAR_LIBRO': "DELETE FROM libros WHERE {columna} = '{valor}'", 'CONSULTAR_LIBRO': "SELECT * FROM libros WHERE {columna} = '{valor}'", 'CREAR_BASE': 'CREATE DATABASE biblioteca', 'CREAR_TABLA': 'CREATE TABLE libros (idlibros int NOT NULL AUTO_...(idlibros)) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4', 'DROP_BASE': 'DROP DATABASE IF EXISTS biblioteca', 'INSERTAR_LIBRO': 'INSERT INTO libros (isbn, titulo, autor, ano_pub...%s, %s, %s, %s, %s, %s, %s, %s, now(), %s, now())', 'MODIFICAR_LIBRO': "UPDATE libros SET {columna_nueva} = '{valor_nuev...) WHERE {columna_condicion} = '{valor_condicion}'", 'USAR_BASE': 'USE biblioteca'}</td></tr></table>
+</body></html>

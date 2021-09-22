@@ -1,3 +1,9 @@
+"""
+Módulo operaciones:
+
+    Contiene las operaciones que se realizan por cada opción seleccionada en el menú,
+    así como también el manejo de excepciones por cada una de ellas.
+"""
 import mysql.connector
 
 from datos import mensajes, queries

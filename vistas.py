@@ -1,3 +1,11 @@
+"""
+Módulo Vistas:
+
+    Contiene las pantallas utilizadas por el usuario (en consola).
+    Las vistas son:
+        -Login
+        -Menu
+"""
 import re
 
 from datos import mensajes, opciones_menu

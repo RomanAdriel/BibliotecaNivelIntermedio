@@ -1,15 +1,15 @@
-"""Este módulo es el modelo que inicializa la base de datos"""
+"""Este módulo es el modelo que inicializa la base de datos
+La clase ConectorDB se encarga de gestionar la creación, carga de datos iniciales, creación de cursor y conexión
+con la base de datos.
+"""
 import mysql.connector
 from datos import queries
 from datos import mensajes
 import sys
 
-"""Esta la clase que inicializa la base de datos. Contiene dos funciones, una para levantar la base, la otra
-para completarla con datos"""
-
 
 class ConectorDB:
-    """Esta la clase que inicializa la base de datos"""
+
     def __init__(
         self,
 
