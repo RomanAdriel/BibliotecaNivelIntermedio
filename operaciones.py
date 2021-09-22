@@ -130,7 +130,7 @@ class Operaciones:
                     guardar_resultado = input(mensajes["EXPORTAR_RESULTADOS"])
 
                     if guardar_resultado == "s":
-                        with open('../resultados.csv', 'w', newline='',
+                        with open('../BibliotecaNivelIntermedio/consultas_exportadas/resultados.csv', 'w', newline='',
                                   encoding='ISO-8859-1') as exportar_resultados:
                             escritura = csv.writer(exportar_resultados)
 
